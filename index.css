@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Questrial", sans-serif;
+
+
+}
+
+header {}
+
+.header-1 {
+    display: flex;
+    padding: 50px 0 0 0;
+    width: 988px;
+    background: #F9F1E7;
+    height: 150px;
+}
+
+.header-1 h2 {
+    margin: 10px 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ul-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 205px;
+}
+
+.icons img {
+    margin: 0 20px;
+}
+
+.input {
+    position: absolute;
+    font-size: 14px;
+
+    font-weight: 400;
+    left: 420px;
+    z-index: 3;
+
+
+}
+
+.input input {
+    width: 473px;
+    height: 45px;
+    background-color: #fff;
+    padding: 0 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input input:focus {
+    outline: none;
+
+}
+
+.input img {
+    position: absolute;
+    width: 20px;
+    top: 12px;
+    left: 2px;
+
+}
+
+.second-para {
+    width: 379px;
+    background: #FCF8F3;
+    height: 150px;
+    padding: 50px 39px 0 0;
+    position: relative;
+    bottom: 50px;
+    right: 35px;
+    left: 381px;
+}
+
+.tpdiv {
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+    position: relative;
+    bottom: 57px;
+    right: 20px;
+}
+
+.secnd img {
+    position: absolute;
+    right: 40px;
+}
+
+/* second section  */
+
+.pics {
+    display: flex;
+    position: relative;
+    bottom: 32px;
+
+}
+
+.pics .main-pic {
+    margin: 0 10px;
+    width: 903px;
+    height: 553px;
+}
+
+.pics .last {
+    width: 52px;
+}
+
+.card2 {
+    position: relative;
+}
+
+.card {
+    width: 380px;
+    height: 420px;
+    bottom: 140px;
+    left: 100px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(15.5px);
+    padding: 40px;
+
+
+}
+
+.card h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.card button {
+    width: 374px;
+    height: 78px;
+    background: var(--Color-Primary, #E89F71);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    right: 100px;
+    width: 210px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(15.5px);
+    bottom: 70px;
+    padding: 40px;
+}
+
+.absolute h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.absolute p {
+    font-size: 16px;
+    font-style: normal;
+    color: #616161;
+    margin: 10px 0;
+}
+
+.absolute span {
+    font-size: 20px;
+}
+
+.absolute img {
+    float: right;
+}
+
+/* section-3 */
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 0 100px;
+    flex-wrap: wrap;
+}
+
+.card-quality {
+    display: flex;
+    align-items: center;
+}
+
+.quality img {
+    margin-right: 15px;
+}
+
+.card-quality div h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-quality div p {
+    font-size: 16px;
+    color: #616161;
+}
+
+.products {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 50px;
+   
+}
+
+.starting {
+    position: relative;
+}
+
+.starting .discount {
+    position: absolute;
+
+}
+                                                    /* HOOOVER START  */
+.starting img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card button{
+    transition: 0.3s
+}
+.section3 .card-quality:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img-section3 img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.text-here button:hover{
+    background-color: #d78257;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 0.3s
+}
+.absolute-2 .arrow:hover{
+    background-color: #d78257;
+    cursor: pointer;
+    transform: scale(0.95);
+
+}
+.card-1:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.card-3:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-2:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-section2 .image-330:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-section img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pics-folder img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.pics-folder-2 img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card button:hover{
+    background-color: #d78257;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 0.3s }
+    .show h1:hover{
+        background-color: #d78257;
+        cursor: pointer;
+        transform: scale(0.95);
+        transition: 0.3s;
+        color: white;
+    }
+    
+                                  /* HOOOOOVER PROPERTIES END */
+
+.cards-slots {
+    width: 285px;
+    height: 430px;
+    background: #F4F5F7;
+    position: relative;
+}
+
+.cards-slots h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cards-slots p {
+    font-size: 16px;
+    color: #616161;
+    margin: 10px 0;
+}
+
+.cards-slots span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.cards-slots .minus {
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+.writings {
+    padding: 20px;
+
+}
+
+.starting .discount {
+    right: 15px;
+    top: 10px;
+    padding: 10px;
+    background: #E97171;
+    border-radius: 50%;
+    color: white;
+}
+
+.topper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.green .new {
+    right: 15px;
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    background: #2EC1AC;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.position-btn {
+    color: #E89F71;
+    padding: 20px 80px;
+    position: absolute;
+    left: 23px;
+    top: 45%;
+    font-size: 16px;
+
+}
+
+.text-inside {
+    display: flex;
+    position: absolute;
+    top: 62%;
+    align-items: center;
+    left: 30px;
+}
+
+.text-inside p {
+    color: #fff;
+
+}
+
+.text-inside .share {
+    color: #fff;
+    margin-right: 100px;
+
+}
+
+/* <!-- show more content  --> */
+
+
+
+.show {
+    margin: 40px 0 80px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.show h1 {
+    width: 245px;
+    color: #E89F71;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #E89F71;
+    background-color: #fff;
+}
+
+.main-section {
+    display: flex;
+    background: #FCF8F3;
+    padding: 50px 0;
+}
+
+.text-here h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.text-here {
+    margin-left: 30px;
+    margin-top: 210px;
+
+}
+
+.text-here p {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.text-here button {
+    width: 176px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #E89F71;
+    color: white;
+    border: none;
+}
+
+.img-section {
+    position: relative;
+    margin-right: 15px;
+}
+
+.absolute-2 {
+    width: 170px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(15.5px);
+    bottom: 30px;
+    padding: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+.absolute-2 .arrow {
+    position: absolute;
+    left: 230px;
+    top: 70px;
+    padding: 10px;
+    background: #E89F71;
+}
+
+.absolute-2 p {
+    line-height: 30px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.image-section2 {
+    position: relative;
+    margin-right: 15px;
+}
+
+.image-section2 div {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+
+}
+
+.img-section3 {
+    position: relative;
+}
+
+.img-section3 div img {
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 256px;
+    right: 40px;
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 100px 0;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    flex-basis: 1px;
+    background-color: #fff;
+    height: 350px;
+
+}
+
+.card-2 {
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); */
+    margin: 0 55px;
+}
+
+.card-3 h4,
+.card-2 h4,
+.card-1 h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.textalign h1 {
+    text-align: center;
+}
+
+.textalign {
+    margin: 80px 0 25px 0;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #616161;
+}
+
+.logos {}
+
+.logo1 {
+    rotate: 180deg;
+    position: absolute;
+    left: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    width: 25px;
+    top: 156px;
+}
+
+.logo2 {
+    position: absolute;
+    right: 5px;
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    width: 25px;
+    top: 156px;
+}
+
+.alot-pics {
+    margin-top: 250px;
+}
+
+.pics-folder-2 {
+    display: flex;
+    position: relative;
+}
+.pics-folder img{
+    object-fit: cover;
+}
+.pics-folder-2 img{
+    object-fit: cover;
+}
+
+.pics-folder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-36 {
+    width: 170px;
+    height: 382px;
+    position: relative;
+    bottom: 95px;
+}
+
+.img-38 {
+    width: 442px;
+    height: 312px;
+    position: relative;
+    bottom: 24px;
+}
+
+.img-40 {
+    width: 260px;
+    height: 392px;
+    position: relative;
+    top: 100px;
+}
+
+.img-43 {
+    width: 301px;
+    height: 340px;
+}
+
+.img-45 {
+
+    height: 433px;
+    width: 100px;
+    position: relative;
+    right: 0;
+    bottom: 95px;
+}
+
+.img-37 {
+    width: 300px;
+    height: 323px;
+    position: relative;
+    bottom: 120px;
+    margin-right: 15px;
+}
+
+.img-39 {
+    width: 315px;
+    height: 242px;
+    position: relative;
+    bottom: 120px;
+}
+
+.img-41 {
+    width: 178px;
+    height: 242px;
+    position: absolute;
+    right: 240px;
+    bottom: 160px;
+}
+
+.img-44 {
+    width: 230px;
+    height: 196px;
+    position: relative;
+    bottom: 79px;
+    left: 489px;
+}
+
+.indicator-3 {
+    position: relative;
+}
+
+.indicator-3 img {
+    position: absolute;
+    bottom: 40px;
+    left: 620px;
+}
+
+.heading-text {
+    position: relative;
+    top: 180px;
+}
+
+.heading-text h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #3A3A3A;
+
+}
+
+.heading-text p {
+    text-align: center;
+    font-size: 20px;
+    color: #616161;
+}
+
+
+
+/* fooooter  */
+
+
+.text-32{
+    flex-basis: 226px;
+    line-height: 30px;
+    position: relative;
+}
+.text-32 p{
+    display: flex;
+    align-items: center;
+    font-size: 16px; 
+    color: #616161;
+
+}
+.text-32 input{
+    width: 242px;
+  height: 35px;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 16px;
+
+}
+.text-32 input:focus{
+outline: none;
+}
+.text-32 h3{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700; 
+color: #000000;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    gap: 0 24px;
+}
+.br{
+    margin-left: 40px;
+  margin-bottom: 60px;
+    
+}
+.carbon-img{
+    position: absolute;
+  top: 49px;
+  padding: 8px;
+  background: #E89F71;
+}
+select{
+    background: none;
+    border: none;
+    font-size: 16px;
+  font-weight: 500;
+}
